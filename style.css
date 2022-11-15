@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-weight:normal ;
+
+}
+
+body { 
+    background-color: pink;
+
+}
+.contenu-section{
+    display: flex;
+}
+img{
+    position: absolute;
+    width: 57%;
+}
+.section-text {
+    position: relative;
+    width: 74%;
+    height: 500px;
+   margin-left: 300px;
+}
+p{
+    padding: 25% 0% 0% 28%;
+    font-weight: bold;
+    font-size: 26px;
+
+}
+
+h1 {
+    
+    justify-content: center;
+    align-items:center;
+    color: hsl(305, 100%, 52%);
+    
+}
+ .entete {
+    font-size: 50PX;
+    color: blueviolet;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.texte {
+  color: hsl(289, 100%, 52%)
+}
+
+#entete {
+    border-right: 0.15em solid white;
+    letter-spacing: 0.05em;
+    animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+    from,
+    to {
+        background-color: transparent;
+    }
+    50% {
+     border-color: white;
+    }
+}
